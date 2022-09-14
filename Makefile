@@ -1,5 +1,7 @@
+FILES=../Desktop/放送大学/Masui-Device台本.xlsx
+
 backup:
-	cp ../Desktop/放送大学/Masui-Device台本.xlsx .
+	cp $(FILES) .
 	git commit -a -m ...
 	git push
 
